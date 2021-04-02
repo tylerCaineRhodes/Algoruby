@@ -1,3 +1,4 @@
+#solution1
 def minimumWaitingTime(queries)
   return 0 if queries.length < 2
   queries.sort!
@@ -8,6 +9,7 @@ def minimumWaitingTime(queries)
    times.inject(0) { |acc, val| acc + val }
 end
 
+#solution2
 def minWaitingTime(queries)
   queries.sort!
   totalTime = 0;
