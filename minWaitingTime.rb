@@ -2,11 +2,9 @@ def minimumWaitingTime(queries)
   return 0 if queries.length < 2
   queries.sort!
   times = queries.map { |v| 0 }
-
   for i in (1...queries.length)
     times[i] = times[i - 1] + queries[i - 1]
   end
-
    times.inject(0) { |acc, val| acc + val }
 end
 
