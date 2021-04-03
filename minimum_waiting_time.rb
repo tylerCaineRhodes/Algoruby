@@ -1,5 +1,5 @@
 #solution1
-def minimumWaitingTime(queries)
+def minimum_waiting_time(queries)
   return 0 if queries.length < 2
   queries.sort!
   times = queries.map { |v| 0 }
@@ -10,7 +10,7 @@ def minimumWaitingTime(queries)
 end
 
 #solution2
-def minWaitingTime(queries)
+def min_waiting_time(queries)
   queries.sort!
   totalTime = 0;
   queries.each_with_index do |item, i|
@@ -22,5 +22,5 @@ end
 
 
 test = [3, 2, 1, 2, 6]
-puts minimumWaitingTime(test) #should be 17
-puts minWaitingTime(test) #should be 17
+puts minimum_waiting_time(test) #should be 17
+puts min_waiting_time(test) #should be 17
