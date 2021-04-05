@@ -7,5 +7,3 @@ def first_non_repeating_character(string)
   split_str.each_with_index { |char, i| return i if storage[char] == 1 }
   return -1
 end
-
-puts first_non_repeating_character('abcdcaf')

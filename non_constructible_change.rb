@@ -7,7 +7,3 @@ def non_constructible_change(coins)
   end
   change + 1
 end
-
-puts non_constructible_change([1, 2, 5]) #should be 4
-puts non_constructible_change([5, 7, 1, 1, 2, 3, 22]) #should be 20
-
