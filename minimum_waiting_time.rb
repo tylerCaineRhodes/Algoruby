@@ -19,8 +19,3 @@ def min_waiting_time(queries)
   end
   totalTime
 end
-
-
-test = [3, 2, 1, 2, 6]
-puts minimum_waiting_time(test) #should be 17
-puts min_waiting_time(test) #should be 17
