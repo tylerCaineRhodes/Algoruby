@@ -6,7 +6,7 @@ describe 'non_constructible_change' do
     @example2 = [5, 7, 1, 1, 2, 3, 22]
   end
 
-  it "should return the lowest non constructible change" do
+  it 'should return the lowest non constructible change' do
     expect(non_constructible_change(@example1)).to eq(4)
     expect(non_constructible_change(@example2)).to eq(20)
   end

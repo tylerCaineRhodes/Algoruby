@@ -4,14 +4,14 @@ def merge_overlapping_intervals(array)
 
   curr = merged[0]
   (1...array.length).each do |i|
-    currFirst, currLast = curr
-    nextFirst, nextLast = array[i]
+    _curr_first, curr_last = curr
+    next_first, next_last = array[i]
 
-    if currLast < nextFirst
+    if curr_last < next_first
       merged.push(array[i])
       curr = merged[merged.length - 1]
     else
-      curr[1] = [currLast, nextLast].max
+      curr[1] = [curr_last, next_last].max
     end
   end
 

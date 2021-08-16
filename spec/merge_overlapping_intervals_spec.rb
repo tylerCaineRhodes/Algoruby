@@ -6,7 +6,7 @@ describe 'non_constructible_change' do
     @expected = [[1, 2], [3, 8], [9, 10]]
   end
 
-  it "should return the lowest non constructible change" do
+  it 'should return the lowest non constructible change' do
     expect(merge_overlapping_intervals(@intervals)).to eq(@expected)
   end
 end

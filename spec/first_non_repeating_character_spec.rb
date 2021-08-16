@@ -5,7 +5,7 @@ describe 'first_non_repeating_character' do
     @example1 = 'abcdcaf'
   end
 
-  it "should return the first non repeating char" do
+  it 'should return the first non repeating char' do
     expect(first_non_repeating_character(@example1)).to eq(1)
   end
 end
