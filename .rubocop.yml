@@ -14,6 +14,9 @@ Style/For:
 Style/IfUnlessModifier:
   Enabled: false
 
+Style/RaiseArgs:
+  Enabled: false
+
 Style/GuardClause:
   Enabled: false
 
@@ -21,6 +24,9 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 
 Style/WhileUntilDo:
+  Enabled: false
+
+Style/Documentation:
   Enabled: false
 
 Style/ParallelAssignment:
