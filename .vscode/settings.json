@@ -1,5 +1,6 @@
 {
   "files.watcherExclude": {
     "**/target": true
-  }
+  },
+  "ruby.rubocop.configFilePath": "/Users/tylerrhodes/projects/algoruby/.rubocop.yml"
 }
